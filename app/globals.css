@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-surface-container-high: #20201f;
+  --color-secondary-dim: #00d4ee;
+  --color-on-primary-fixed: #004346;
+  --color-on-secondary-fixed: #003a42;
+  --color-tertiary-fixed: #6bb6ff;
+  --color-tertiary-dim: #41a3f7;
+  --color-tertiary-container: #45a6fa;
+  --color-on-tertiary: #003053;
+  --color-outline-variant: #484847;
+  --color-secondary: #00e3fe;
+  --color-surface-container: #1a1a1a;
+  --color-on-tertiary-fixed: #00192f;
+  --color-on-error-container: #ffa8a3;
+  --color-on-surface-variant: #adaaaa;
+  --color-secondary-fixed-dim: #00d7f1;
+  --color-on-primary-fixed-variant: #006266;
+  --color-surface-tint: #a1faff;
+  --color-on-secondary-container: #e9fbff;
+  --color-surface-variant: #262626;
+  --color-inverse-on-surface: #565555;
+  --color-error: #ff716c;
+  --color-outline: #767575;
+  --color-on-primary-container: #00575b;
+  --color-on-primary: #006165;
+  --color-error-dim: #d7383b;
+  --color-background: #0e0e0e;
+  --color-secondary-container: #006876;
+  --color-on-error: #490006;
+  --color-primary-fixed-dim: #00e5ee;
+  --color-on-surface: #ffffff;
+  --color-tertiary: #64b3ff;
+  --color-on-tertiary-fixed-variant: #003c65;
+  --color-inverse-primary: #006a6e;
+  --color-on-secondary: #004d58;
+  --color-surface: #0e0e0e;
+  --color-surface-bright: #2c2c2c;
+  --color-primary-container: #00f4fe;
+  --color-primary-fixed: #00f4fe;
+  --color-secondary-fixed: #37e5ff;
+  --color-surface-container-low: #131313;
+  --color-surface-container-lowest: #000000;
+  --color-on-secondary-fixed-variant: #005965;
+  --color-primary-dim: #00e5ee;
+  --color-tertiary-fixed-dim: #49a8fc;
+  --color-on-background: #ffffff;
+  --color-error-container: #9f0519;
+  --color-on-tertiary-container: #002440;
+  --color-surface-container-highest: #262626;
+  --color-inverse-surface: #fcf9f8;
+  --color-primary: #a1faff;
+  --color-surface-dim: #0e0e0e;
+
+  --font-headline: var(--font-space-grotesk), "Space Grotesk", sans-serif;
+  --font-body: var(--font-inter), "Inter", sans-serif;
+  --font-label: var(--font-inter), "Inter", sans-serif;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+
+
+@utility hide-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@utility logic-rail {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(72, 72, 71, 0.15),
+    transparent
+  );
+}
+
+@utility glass-nav {
+  background: rgba(14, 14, 14, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+@utility neon-glow {
+  text-shadow: 0 0 20px rgba(161, 250, 255, 0.3);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-on-background);
+}

@@ -4,7 +4,7 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import { projects } from "../../../lib/data";
 import Image from "next/image";
-import { MdArrowBack, MdStorage, MdChevronRight, MdMemory, MdDevices } from "react-icons/md";
+import { MdArrowBack} from "react-icons/md";
 
 export default async function ProjectDetail({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -85,40 +85,7 @@ export default async function ProjectDetail({ params }: { params: Promise<{ slug
                 </div>
               )}
               {/* Architecture Diagram Placeholder based on design */}
-              {project.challenge && (
-                <div className="bg-surface-container border border-outline-variant/15 p-1 px-1 rounded-sm">
-                  <div className="aspect-video bg-surface-container-low flex flex-col items-center justify-center gap-6 relative overflow-hidden group">
-                    <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary via-transparent to-transparent"></div>
-                    <div className="relative z-10 flex items-center gap-8 md:gap-16">
-                      <div className="flex flex-col items-center gap-3">
-                        <div className="w-16 h-16 border border-outline-variant flex items-center justify-center rounded-sm bg-surface">
-                          <MdStorage className="text-primary text-3xl" />
-                        </div>
-                        <span className="font-label text-[10px] uppercase tracking-widest">Origin</span>
-                      </div>
-                      <div className="h-px w-12 md:w-24 bg-outline-variant relative">
-                        <MdChevronRight className="absolute right-0 -top-1.5 text-sm text-outline-variant" />
-                      </div>
-                      <div className="flex flex-col items-center gap-3">
-                        <div className="w-24 h-24 border-2 border-primary shadow-[0_0_30px_rgba(161,250,255,0.1)] flex items-center justify-center rounded-sm bg-surface">
-                          <MdMemory className="text-primary text-5xl" />
-                        </div>
-                        <span className="font-label text-[10px] uppercase tracking-widest font-bold text-primary">Rust + WASM Edge</span>
-                      </div>
-                      <div className="h-px w-12 md:w-24 bg-outline-variant relative">
-                        <MdChevronRight className="absolute right-0 -top-1.5 text-sm text-outline-variant" />
-                      </div>
-                      <div className="flex flex-col items-center gap-3">
-                        <div className="w-16 h-16 border border-outline-variant flex items-center justify-center rounded-sm bg-surface">
-                          <MdDevices className="text-secondary text-3xl" />
-                        </div>
-                        <span className="font-label text-[10px] uppercase tracking-widest">User</span>
-                      </div>
-                    </div>
-                    <p className="font-label text-xs text-on-surface-variant italic mt-4">Simplified data flow: Origin to Edge Runtime to End User</p>
-                  </div>
-                </div>
-              )}
+
             </div>
 
             {/* Right Sidebar Meta */}
@@ -159,10 +126,10 @@ export default async function ProjectDetail({ params }: { params: Promise<{ slug
                     )}
                   </div>
                 )}
-                <hr className="border-outline-variant/15" />
+                {/* <hr className="border-outline-variant/15" />
                 <button className="w-full border border-primary text-primary hover:bg-primary/10 py-3 font-headline font-bold uppercase tracking-widest text-xs transition-all duration-300 rounded-sm">
                   View Case Study PDF
-                </button>
+                </button> */}
               </div>
             </aside>
           </div>

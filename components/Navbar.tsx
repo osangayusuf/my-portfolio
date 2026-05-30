@@ -30,9 +30,13 @@ export default function Navbar() {
             Contact
           </Link>
         </div>
-        <button className="bg-primary text-on-primary-container px-6 py-2 font-headline font-bold uppercase tracking-widest text-xs hover:bg-primary/90 active:scale-95 transition-all duration-300 rounded-sm">
+        <a
+          className="bg-primary text-on-primary-container px-6 py-2 font-headline font-bold uppercase tracking-widest text-xs hover:bg-primary/90 active:scale-95 transition-all duration-300 rounded-sm"
+          href="/OSANGA%20YUSUF%20CV.pdf"
+          download="OSANGA YUSUF CV.pdf"
+        >
           Resume
-        </button>
+        </a>
       </div>
     </nav>
   );

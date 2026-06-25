@@ -13,8 +13,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "NeonArchitect | Solutions Architect & Full-Stack Engineer",
-  description: "Engineering high-performance distributed systems.",
+  title: "Osanga Yusuf | Solutions Architect & Full-Stack Engineer",
+  description: "Engineering scalable, high-performance systems.",
 };
 
 export default function RootLayout({

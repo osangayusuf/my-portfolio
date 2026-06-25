@@ -33,18 +33,22 @@ export const projects: Project[] = [
     timeline: "3 weeks",
     status: "Completed",
     role: "Fullstack Developer",
-    challenge: "The client required a premium, frictionless booking system for their training and meeting venue capable of dynamically managing complex room types, flexible pricing models, and real-time availability.",
-    solution: "Engineered a robust fullstack platform leveraging NextJS and Laravel. The solution seamlessly orchestrates room reservations, secure payment processing, and inventory management, complemented by a powerful administrative dashboard.",
+    challenge:
+      "The client required a premium, frictionless booking system for their training and meeting venue capable of dynamically managing complex room types, flexible pricing models, and real-time availability.",
+    solution:
+      "Engineered a robust fullstack platform leveraging NextJS and Laravel. The solution seamlessly orchestrates room reservations, secure payment processing, and inventory management, complemented by a powerful administrative dashboard.",
     metrics: [
       {
         value: "100%",
         label: "System Uptime",
-        description: "Achieved flawless reliability with zero downtime since deployment.",
+        description:
+          "Achieved flawless reliability with zero downtime since deployment.",
       },
       {
         value: "24/7",
         label: "Automated Booking",
-        description: "Empowered round-the-clock automated reservations and customer self-service.",
+        description:
+          "Empowered round-the-clock automated reservations and customer self-service.",
       },
     ],
   },
@@ -63,48 +67,56 @@ export const projects: Project[] = [
     timeline: "3 weeks",
     status: "Completed",
     role: "Fullstack Developer",
-    challenge: "The agency needed a cutting-edge digital presence to effectively highlight their portfolio and attract high-value clients, demanding blazing-fast performance and a deeply engaging user experience.",
-    solution: "Crafted a high-performance, fully responsive website utilizing NextJS and Tailwind CSS. The modernized architecture delivers rapid page loads, sleek interactions, and intuitive navigation.",
+    challenge:
+      "The agency needed a cutting-edge digital presence to effectively highlight their portfolio and attract high-value clients, demanding blazing-fast performance and a deeply engaging user experience.",
+    solution:
+      "Crafted a high-performance, fully responsive website utilizing NextJS and Tailwind CSS. The modernized architecture delivers rapid page loads, sleek interactions, and intuitive navigation.",
     metrics: [
       {
         value: "100%",
         label: "System Uptime",
-        description: "Maintained continuous, highly-available service since launch.",
+        description:
+          "Maintained continuous, highly-available service since launch.",
       },
       {
         value: "100%",
         label: "Client Satisfaction",
-        description: "Exceeded all performance and design expectations, resulting in complete client approval.",
+        description:
+          "Exceeded all performance and design expectations, resulting in complete client approval.",
       },
     ],
   },
   {
     id: 3,
-    slug: "daniel-young-uniforms",
+    slug: "turtle-uniforms",
     category: "E-Commerce",
-    title: "Daniel Young Uniforms",
+    title: "Turtle Uniforms",
     description:
       "Fullstack ecommerce platform customized for a uniform manufacturing and retail business.",
     techStack: ["Laravel", "ReactJS", "Tailwind", "HTML"],
-    imageUrl: "/projects/daniel-young-uniforms.png",
-    imageAlt: "Screenshot of Daniel Young Uniforms website",
+    imageUrl: "/projects/turtle.png",
+    imageAlt: "Screenshot of Turtle Uniforms website",
     cardType: "tall",
-    liveSite: "https://danielyounguniforms.com",
+    liveSite: "https://turtleuniforms.com.ng",
     timeline: "5 weeks",
     status: "Completed",
     role: "Fullstack Developer",
-    challenge: "The client envisioned a digital storefront to globally showcase their uniform manufacturing catalog while seamlessly processing a high volume of concurrent retail orders.",
-    solution: "Developed a comprehensive, scalable e-commerce infrastructure using Laravel and ReactJS. The platform elegantly displays the product catalog, processes complex orders, and features an intuitive back-office dashboard for inventory and order management.",
+    challenge:
+      "The client envisioned a digital storefront to globally showcase their uniform manufacturing catalog while seamlessly processing a high volume of concurrent retail orders.",
+    solution:
+      "Developed a comprehensive, scalable e-commerce infrastructure using Laravel and ReactJS. The platform elegantly displays the product catalog, processes complex orders, and features an intuitive back-office dashboard for inventory and order management.",
     metrics: [
       {
         value: "Streamlined",
         label: "Operations",
-        description: "Provided a powerful, automated administrative dashboard for effortless product management.",
+        description:
+          "Provided a powerful, automated administrative dashboard for effortless product management.",
       },
       {
         value: "100%",
         label: "System Uptime",
-        description: "Delivered flawless, uninterrupted e-commerce service since going live.",
+        description:
+          "Delivered flawless, uninterrupted e-commerce service since going live.",
       },
     ],
   },
@@ -123,24 +135,112 @@ export const projects: Project[] = [
     timeline: "8 weeks",
     status: "Completed",
     role: "Backend Developer",
-    challenge: "The client required a high-throughput backend API capable of aggregating and processing real-time agricultural data from diverse, distributed sources to power an AI-driven yield optimization tool.",
-    solution: "Engineered a highly scalable REST API using Laravel and PHP, designed to instantly ingest and synchronize multi-source data streams while gracefully handling intense concurrent request loads.",
+    challenge:
+      "The client required a high-throughput backend API capable of aggregating and processing real-time agricultural data from diverse, distributed sources to power an AI-driven yield optimization tool.",
+    solution:
+      "Engineered a highly scalable REST API using Laravel and PHP, designed to instantly ingest and synchronize multi-source data streams while gracefully handling intense concurrent request loads.",
     metrics: [
       {
         value: "Real-Time",
         label: "Data Processing",
-        description: "Successfully aggregates live telemetrics and data from highly distributed farm locations.",
+        description:
+          "Successfully aggregates live telemetrics and data from highly distributed farm locations.",
       },
       {
         value: "Highly Scalable",
         label: "Architecture",
-        description: "Resilient infrastructure built to consistently handle massive API request volumes without lag.",
+        description:
+          "Resilient infrastructure built to consistently handle massive API request volumes without lag.",
       },
     ],
   },
-
   {
     id: 5,
+    slug: "techhillcity-react",
+    category: "Frontend Development",
+    title: "Tech Hill City",
+    description:
+      "Modern, high-performance IT services and consulting web application built from a legacy static site migration. Features rich interactive sections, dynamic services filter, testimonial carousels, and fluid Framer Motion entrance animations.",
+    techStack: [
+      "React 19",
+      "Chakra UI v3",
+      "Vite",
+      "React Router v6",
+      "React Hook Form",
+      "Framer Motion",
+      "Swiper",
+    ],
+    imageUrl: "/projects/techhillcity.png",
+    imageAlt: "Screenshot of Tech Hill City React App website",
+    cardType: "large",
+    liveSite: "https://techhillcity.com",
+    timeline: "4 weeks",
+    status: "Completed",
+    role: "Frontend Developer",
+    challenge:
+      "Migrating a legacy multi-page static HTML website into a modern, single-page React application while improving performance, maintaining SEO readiness, enhancing responsiveness, and adding premium interactive micro-animations.",
+    solution:
+      "Rebuilt the interface using React 19 and Chakra UI v3, utilizing the createSystem API for custom design tokens. Implemented Framer Motion for premium entering transitions, React Hook Form for client-validated contact forms, and Swiper for touch-enabled carousels.",
+    metrics: [
+      {
+        value: "50%+",
+        label: "Load Time Reduction",
+        description:
+          "Drastically improved page load performance and asset delivery using Vite and React 19.",
+      },
+      {
+        value: "100%",
+        label: "Responsive UI",
+        description:
+          "Perfect fluid adaptation across mobile, tablet, and desktop breakpoints.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    slug: "thc-rdi-portal",
+    category: "Fullstack Development",
+    title: "THC RDI Portal",
+    description:
+      "Comprehensive Research, Development, and Innovation (RDI) management portal featuring course enrollment, automated interactive assessments, learning journeys, capstone projects tracking, attendance registers, and dynamic PDF certificate generation.",
+    techStack: [
+      "Laravel 12",
+      "PHP",
+      "Inertia.js v2",
+      "Vue 3",
+      "Tailwind CSS v4",
+      "MySQL",
+      "Laravel Fortify",
+      "Pest",
+    ],
+    imageUrl: "/projects/thc-rdi-portal.png",
+    imageAlt: "Screenshot of THC RDI Portal website",
+    cardType: "tall",
+    liveSite: "https://rdiportal.techhillcity.com",
+    timeline: "8 weeks",
+    status: "Completed",
+    role: "Fullstack Developer",
+    challenge:
+      "Managing multi-tenant user roles (students, facilitators, administrators) while providing seamless tracking for assignments, capstones, real-time quizzes, and issuing cryptographically verifiable PDF certificates with varying honors classifications.",
+    solution:
+      "Designed an elegant relational database structure with robust Laravel controllers and Inertia.js v2 Vue views. Implemented Laravel Fortify for secure authentication, and utilized a custom PDF rendering engine for certified student achievements coupled with unique verification UUIDs.",
+    metrics: [
+      {
+        value: "Automated",
+        label: "Certification",
+        description:
+          "Instantly generates and registers verified honors certificates upon course completion.",
+      },
+      {
+        value: "Multi-Role",
+        label: "Workflow",
+        description:
+          "Streamlined grading pipelines and attendance tracking for students, facilitators, and admins.",
+      },
+    ],
+  },
+  {
+    id: 7,
     slug: "daniel-young-furniture",
     category: "E-Commerce",
     title: "Daniel Young Furniture",
@@ -154,18 +254,21 @@ export const projects: Project[] = [
     timeline: "4 weeks",
     status: "Completed",
     role: "Fullstack Developer",
-    challenge: "The client wanted a refined online store to beautifully showcase customized furniture collections and provide a frictionless purchasing journey.",
-    solution: "Designed and built a responsive e-commerce platform using ReactJS and Laravel, integrating an elegant product catalog, streamlined checkout, and secure payment processing.",
+    challenge:
+      "The client wanted a refined online store to beautifully showcase customized furniture collections and provide a frictionless purchasing journey.",
+    solution:
+      "Designed and built a responsive e-commerce platform using ReactJS and Laravel, integrating an elegant product catalog, streamlined checkout, and secure payment processing.",
     metrics: [
       {
         value: "Seamless",
         label: "Shopping Experience",
-        description: "Delivered an intuitive and premium interface for showcasing high-end furniture.",
+        description:
+          "Delivered an intuitive and premium interface for showcasing high-end furniture.",
       },
     ],
   },
   {
-    id: 6,
+    id: 8,
     slug: "rideskut",
     category: "Fullstack Development",
     title: "SKUT",
@@ -179,22 +282,26 @@ export const projects: Project[] = [
     timeline: "6 weeks",
     status: "Completed",
     role: "Fullstack Developer",
-    challenge: "Building a reliable, high-performance mobility platform to ensure seamless transportation and intuitive ride-booking experiences for users.",
-    solution: "Developed an engaging frontend using ReactJS that connects riders with transportation services, featuring a real-time tracking interface, instant feedback, and an optimized ride-booking flow.",
+    challenge:
+      "Building a reliable, high-performance mobility platform to ensure seamless transportation and intuitive ride-booking experiences for users.",
+    solution:
+      "Developed an engaging frontend using ReactJS that connects riders with transportation services, featuring a real-time tracking interface, instant feedback, and an optimized ride-booking flow.",
     metrics: [
       {
         value: "Optimized",
         label: "Booking Flow",
-        description: "Created a smooth and exceptionally responsive experience for requesting rides.",
+        description:
+          "Created a smooth and exceptionally responsive experience for requesting rides.",
       },
     ],
   },
   {
-    id: 7,
+    id: 9,
     slug: "sba-reads",
     category: "Backend Development",
     title: "SBA Reads",
-    description: "Architected and developed a robust backend API for a mobile marketplace connecting readers and writers.",
+    description:
+      "Architected and developed a robust backend API for a mobile marketplace connecting readers and writers.",
     techStack: ["Laravel", "PHP", "API", "Postman", "MySQL"],
     imageUrl: "/projects/sba-reads.jpg",
     imageAlt: "Screenshot of SBA Reads website",
@@ -203,21 +310,67 @@ export const projects: Project[] = [
     timeline: "4 weeks",
     status: "Completed",
     role: "Backend Developer",
-    challenge: "The client envisioned a vibrant mobile ecosystem where readers and writers could securely discover, purchase, and share literature, demanding a fast, highly available backend architecture.",
-    solution: "Engineered a scalable RESTful API with Laravel and MySQL to manage user accounts, rapid content delivery, and secure transactions, ensuring minimal latency and robust data synchronization.",
+    challenge:
+      "The client envisioned a vibrant mobile ecosystem where readers and writers could securely discover, purchase, and share literature, demanding a fast, highly available backend architecture.",
+    solution:
+      "Engineered a scalable RESTful API with Laravel and MySQL to manage user accounts, rapid content delivery, and secure transactions, ensuring minimal latency and robust data synchronization.",
     metrics: [
       {
         value: "High Speed",
         label: "Query Execution",
-        description: "Structured highly relational data models for instantaneous content retrieval.",
+        description:
+          "Structured highly relational data models for instantaneous content retrieval.",
       },
       {
         value: "Scalable",
         label: "API Architecture",
-        description: "Built extensible endpoints resilient enough to support concurrent active users seamlessly.",
+        description:
+          "Built extensible endpoints resilient enough to support concurrent active users seamlessly.",
       },
     ],
-  }
+  },
+  {
+    id: 10,
+    slug: "carrygo",
+    category: "Fullstack Development",
+    title: "CarryGo",
+    description:
+      "Gamified reverse bidding and loyalty platform designed for users to place bids, complete task center activities, check-in daily, spin the wheel for rewards, and track real-time auction countdowns.",
+    techStack: [
+      "Laravel 13",
+      "PHP",
+      "Inertia.js v3",
+      "Vue 3",
+      "Tailwind CSS v4",
+      "Vite",
+      "TypeScript",
+    ],
+    imageUrl: "/projects/carrygo.png",
+    imageAlt: "Screenshot of CarryGo website",
+    cardType: "regular",
+    liveSite: "https://ngcarrygo.com",
+    timeline: "6 weeks",
+    status: "Completed",
+    role: "Fullstack Developer",
+    challenge:
+      "Developing a highly interactive, real-time gamified reverse auction platform that keeps users engaged through daily tasks, check-ins, and spin-the-wheel rewards, all while maintaining high performance and precise countdown synchronization for concurrent bidders.",
+    solution:
+      "Leveraged Laravel 13 on the backend for robust business logic, paired with Inertia.js v3 and Vue 3 for a fluid client-side SPA experience. Utilized Tailwind CSS v4 for a cutting-edge dark-themed UI and implemented atomic queue-based bid handling to prevent race conditions during last-second bids.",
+    metrics: [
+      {
+        value: "100%",
+        label: "Real-Time Sync",
+        description:
+          "Guaranteed instant countdown and leaderboard updates across all active bidders.",
+      },
+      {
+        value: "50%+",
+        label: "Engagement Boost",
+        description:
+          "Increased daily active users through the task center and check-in rewards loop.",
+      },
+    ],
+  },
 ];
 
 export const experience = [
